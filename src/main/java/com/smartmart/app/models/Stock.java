@@ -7,9 +7,8 @@ import lombok.NoArgsConstructor;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class Category {
-	private int category_id;
-	private String category_name;
-	private String image_url;
-	
+public class Stock extends Product {
+	private int stock_id ;
+	private int product_id;
+	private int quantity;
 }
