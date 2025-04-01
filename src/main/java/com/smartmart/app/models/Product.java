@@ -13,6 +13,6 @@ public class Product extends Category {
 	private int category_id;
 	private int  price;
 	private String description;
-	private String image_url;
+	private String product_image_url;
 	
 }

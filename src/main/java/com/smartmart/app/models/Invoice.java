@@ -7,10 +7,9 @@ import lombok.NoArgsConstructor;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class Order extends OrderItem {
-	private int  order_id;
-	private int user_id;
+public class Invoice {
+	private  int invoice_id;
+	private int order_id;
 	private int total_amount;
-	private String  status;
-	
+	private String payment_status;
 }

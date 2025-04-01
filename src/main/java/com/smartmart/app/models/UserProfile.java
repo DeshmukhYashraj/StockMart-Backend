@@ -7,7 +7,7 @@ import lombok.NoArgsConstructor;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class UserProfile {
+public class UserProfile extends Order{
 	private int user_id;
 	private String first_name;
 	private String last_name;
