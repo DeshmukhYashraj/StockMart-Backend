@@ -9,7 +9,7 @@ import org.springframework.jdbc.core.JdbcTemplate;
 @Configuration
 public class DataBaseConfig {
 	@Bean(name="con")
-	public JdbcTemplate getConn(DataSource dataSource) {
+	 JdbcTemplate getConn(DataSource dataSource) {
 		return new JdbcTemplate(dataSource);
 	}
 }
