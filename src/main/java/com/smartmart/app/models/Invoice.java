@@ -7,9 +7,9 @@ import lombok.NoArgsConstructor;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class Category {
-	private int category_id;
-	private String category_name;
-	private String image_url;
-	
+public class Invoice {
+	private  int invoice_id;
+	private int order_id;
+	private int total_amount;
+	private String payment_status;
 }
